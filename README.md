@@ -33,7 +33,7 @@ A list of features under development are:
 
 ## Communication
 
-Do not hesitate to contact the creator of the project at: [georgios.goniotakis@outlook.com](mailto:georgios.goniotakis@outlook.com) for any concerns/questions.
+Do not hesitate to contact the creator of the project at: [georgios.goniotakis@outlook.com](mailto: for any concerns/questions.
 
 
 
