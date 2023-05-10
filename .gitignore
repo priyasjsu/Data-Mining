@@ -167,4 +167,7 @@ venv.bak/
 .mypy_cache/
 
 
+restaurant_data.csv
+
+
 # End of https://www.gitignore.io/api/python,pycharm
