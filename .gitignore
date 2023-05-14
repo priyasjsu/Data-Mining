@@ -22,7 +22,8 @@
 # Gradle:
 .idea/**/gradle.xml
 .idea/**/libraries
-
+.DS_Store
+.idea/vcs.xml
 # CMake
 cmake-build-debug/
 
@@ -165,6 +166,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+myenv/
 
+business_restaurant.csv
+cleaned_review.csv
+restaurant_data.csv
+yelp_recommendation_model_8.pkl_1
 
 # End of https://www.gitignore.io/api/python,pycharm
