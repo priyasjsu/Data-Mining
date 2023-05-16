@@ -22,32 +22,6 @@ Content-based filtering is a recommendation technique that utilizes item feature
 ### User-Item Based Collaborative Filtering using SVD:
 User-item based collaborative filtering is a popular recommendation technique that relies on user-item interactions to make recommendations. It builds a user-item matrix representing user preferences or ratings for items. Singular Value Decomposition (SVD) is a matrix factorization technique commonly used in collaborative filtering. It decomposes the user-item matrix into lower-dimensional matrices capturing latent factors. By applying SVD, the system can identify latent patterns and relationships between users and items. The learned latent factors can then be used to predict missing ratings or recommend items to users based on their similarities with other users or items. In this model, the data was filtered for top 50 restaurants recommeded by LDA model and then data was trained using SVD model.
 
-#### Steps to Dowload the file:
-1. Download the zip folder from the repository
-2. Using the command prompt, navigate to the directory of the folder.
-3. To activate the environment. Run the following command. 
-   ##### - For Windows:
-    path_to_myenv\Scripts\activate.bat
+#### Steps to Download the file:
 
-   #####  - For Unix/macOS:
-    source path_to_myenv/bin/activate
-    
-   ##### To activate the virtual environment with the following command:
-    conda activate myenv
-    
-4. After this, run the following:
-   <br> 
-   <br>
-   pip install -r requirements.txt
-    
-5. If you want recommmendation for Chinese restaurant in Philadelphia, run the following:
-   <br> 
-   <br>
-  python prediction.py
-  
-6. If you want Restaurant recommendation based on specific cuisine and city, run the following:
-   <br> 
-   <br>
-  python hybridmodel.py cuisinename cityname
-  
-   This will model uses knowledge based filtering provided by the user and then trained the model with relevant data, it takes 3-4 minutes to get the recommendations. 
+ 
