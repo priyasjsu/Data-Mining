@@ -31,9 +31,7 @@ A list of features under development are:
 - Add additional arithmetic operations
 - Design of either a command line or a graphical user interface (GUI)
 
-## Communication
 
-Do not hesitate to contact the creator of the project at: [georgios.goniotakis@outlook.com](mailto:georgios.goniotakis@outlook.com) for any concerns/questions.
 
 
 
