@@ -1,39 +1,35 @@
 # python-hierarchy
-
-[![Python: 3.6](https://img.shields.io/badge/Python-3.6-blue.svg)](#)
-[![Build Status](https://travis-ci.org/GeorgiosGoniotakis/python-hierarchy.svg?branch=master)](https://travis-ci.org/GeorgiosGoniotakis/python-hierarchy)
-[![license: MIT](https://img.shields.io/badge/license-MIT-orange.svg)](https://opensource.org/licenses/MIT)
-
-python-hierarchy is a project which demonstrates commonly used architecture for Python repositories. This repository comes with a full [Medium post](https://medium.com/@GeorgiosGoniotakis/python-repository-structure-5015655cb9a7) discussing the nature and purpose of each individual file. Below you can find the proposed contents of a root README.md file.
-
+Restaurant Recommendation is a project that we build as part our course in Data-Mining 240
 ## Installation
 
-Download the project to your computer, navigate to the root folder and execute the command `python setup.py install`
+## For data extraction
+Run - python setup.py extract
 
 ## Project Dependencies
-
-The project uses the [`requests`](https://github.com/requests/requests) library in order to perform an HTTP request for demonstration purposes.
-
-## Limitations
-
-Some of the limitations of the project:
-- Includes only four basic arithmetic operations
-- Can only mulitply two numbers at a time
+Download the project dependencies to your computer, navigate to the root folder and execute the command `pip install -r requirements.txt`
 
 ## Development
+We have implemented 4 model to explore all dimension of yelp dataset. Each model using different set of data to recommend restaurant. 
 
-A list of features under development are:
-- Input validation
-- Source Code Documentation
+## 1. Review Base Model
+### Restaurant Recommendation based on query ex. "I want to for pizza place"
+Run - python source/review_rec.py "I want to go for pizza place"
+
+### For Train Model (We already trained our model and pickle file is in data folder)
+python source/train_review_model.py
+
+### For EDA and Preprocessing dataset (We already performed on given dataset and cleaned daatset provided in data folder but to check)
+python source/data_preprocessing.py
+
+## 2. 
 
 ## Future Enhancements
 
-- Add additional arithmetic operations
-- Design of either a command line or a graphical user interface (GUI)
+- Integrate all Models and Design of a graphical user interface (GUI)
 
 ## Communication
 
-Do not hesitate to contact the creator of the project at: [georgios.goniotakis@outlook.com](mailto:georgios.goniotakis@outlook.com) for any concerns/questions.
+Do not hesitate to contact the creator of the project at: [priya.khandelwal@sjsu.edu](mailto:priya.khandelwal@sjsu.edu) for any concerns/questions.
 
 
 
