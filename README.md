@@ -27,9 +27,8 @@ python source/data_preprocessing.py
 
 - Integrate all Models and Design of a graphical user interface (GUI)
 
-## Communication
-
 Do not hesitate to contact the creator of the project at: [priya.khandelwal@sjsu.edu](mailto:priya.khandelwal@sjsu.edu) for any concerns/questions.
+
 
 
 
