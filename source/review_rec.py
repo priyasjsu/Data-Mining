@@ -93,7 +93,7 @@ arguments = sys.argv
 query = arguments[1]
 
 business_file = '../data/business_restaurant.csv'
-model_file = '../data/review_recommendation_model.pkl_1'
+model_file = '../data/model_pickle_review.pickle'
 
 # Providing the path of data files
 my_path = os.path.abspath(os.path.dirname(__file__))
