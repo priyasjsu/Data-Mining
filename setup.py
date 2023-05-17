@@ -32,6 +32,8 @@ class ExtractCommand(Command):
         cleaned_review_url = f'https://drive.google.com/uc?id={cleaned_review_id}'
         restaurant_data_url = f'https://drive.google.com/uc?id={restaurant_data_id}'
         business_json_url = f'https://drive.google.com/uc?id={business_json}'
+        model_url = f'https://drive.google.com/uc?id={model_file_id}'
+
 
         my_path = os.path.abspath(os.path.dirname(__file__))
         review_csv_PA = os.path.join(my_path, "./data/review_PA.csv")
@@ -40,7 +42,8 @@ class ExtractCommand(Command):
         cleaned_restaurant = os.path.join(my_path, "./data/cleaned_review.csv")
         restaurant_data = os.path.join(my_path, "./data/restaurant_data.csv")
         business_json = os.path.join(my_path, "./data/business.json")
-
+        model_pickle_review = os.path.join(my_path, "./data/model_pickle_review.pickle")
+        
         os.makedirs('./data', exist_ok=True)
         # Retrieve the file content
         gdown.download(file_url, review_csv_PA, quiet=False)
@@ -49,6 +52,7 @@ class ExtractCommand(Command):
         gdown.download(cleaned_review_url, cleaned_restaurant, quiet=False)
         gdown.download(restaurant_data_url, restaurant_data,  quiet=False)
         gdown.download(business_json_url, business_json,  quiet=False)
+        gdown.download(model_url, model_pickle_review,  quiet=False)
 
         # zip_path = data_path  # Replace with the actual path to your zip file
         # extract_folder = dest_path  # Replace with the path where you want to extract the files
