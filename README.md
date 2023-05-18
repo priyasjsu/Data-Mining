@@ -21,10 +21,13 @@ Run - python setup.py extract
 
 
 ## Project Dependencies
-After activating the enviroment, run the following command
+1. After activating the enviroment, run the following command
 `pip install -r requirements.txt`
 
-If there is any pytorch module import error then please install Pytorch from their Official Page for your OS.
+2. Install pytorch using below commands for your OS.<br> 
+For MacOS : `pip3 install torch torchvision torchaudio` <br>
+For Windows: `pip3 install torch torchvision torchaudio` <br>
+For Linux: `pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu`
 
 ## For EDA and Preprocessing dataset (We already performed EDA on given dataset and cleaned daatset provided in data folder), run the following command
 python source/data_preprocessing.py
@@ -71,17 +74,10 @@ To exit the recommender, choose option 3. Thank you for using the Restaurant Rec
 
 Content-based modeling in restaurant recommendation systems is a technique used to provide personalized recommendations to users based on the characteristics of the restaurants and the preferences of the users.
 <br>
-##Note: 
-Make sure to have pytorch installed in your system before running.
-If not, Install pytorch using below commands for your OS.
 
-For MacOS : pip3 install torch torchvision torchaudio
-For Windows: pip3 install torch torchvision torchaudio
-For Linux: pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-<br>
 ## Usage:
 
-python source/run.py
+python source/content_recommendation.py
 
 1. Enter the Restaurant Name (Ex: Starbucks) for Getting the Recommendation
 2. Enter the Number of Recommendations which you find Relevant
