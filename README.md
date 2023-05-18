@@ -21,10 +21,13 @@ Run - python setup.py extract
 
 
 ## Project Dependencies
-After activating the enviroment, run the following command
+1. After activating the enviroment, run the following command
 `pip install -r requirements.txt`
 
-If there is any pytorch module import error then please install Pytorch from their Official Page for your OS.
+2. Install pytorch using below commands for your OS.<br> 
+For MacOS : `pip3 install torch torchvision torchaudio` <br>
+For Windows: `pip3 install torch torchvision torchaudio` <br>
+For Linux: `pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu`
 
 ## For EDA and Preprocessing dataset (We already performed EDA on given dataset and cleaned daatset provided in data folder), run the following command
 python source/data_preprocessing.py
@@ -42,9 +45,9 @@ Run - python source/review_rec.py "I want to go for pizza place"
 python source/train_review_model.py
 
 ## 2.Restaurant Recommendation system with Memory Based Collaborative Filtering
-What is Memory Based Collaborative Filtering?
+Memory based Collabortaive Filtering filters the items in a collaborative way for a user, based on the preferences of similar users. In this system cosine similarity method is used to find the top 10 recommended businesses for a user based on the features.
 
-##### To run the memory based recommender, execute the following command in your terminal:
+### To run the memory based recommender, execute the following command in your terminal:
 python source/memory_based_recommendor.py
 
 The script will download the required data files if they don't already exist and then prompt you to choose between different options.
@@ -71,18 +74,12 @@ To exit the recommender, choose option 3. Thank you for using the Restaurant Rec
 
 Content-based modeling in restaurant recommendation systems is a technique used to provide personalized recommendations to users based on the characteristics of the restaurants and the preferences of the users.
 <br>
-##Note: 
-Make sure to have pytorch installed in your system before running.
-If not, Install pytorch using below commands for your OS.
 
-For MacOS : pip3 install torch torchvision torchaudio
-For Windows: pip3 install torch torchvision torchaudio
-For Linux: pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-<br>
+## Run
+`python source/content_recommendation.py`
+
+
 ## Usage:
-
-python source/run.py
-
 1. Enter the Restaurant Name (Ex: Starbucks) for Getting the Recommendation
 2. Enter the Number of Recommendations which you find Relevant
 3. Enter q to exit or enter business name for new recommendation.
@@ -115,6 +112,14 @@ This will model uses knowledge based filtering provided by the user and then tra
 - To integrate all Models and Design of a graphical user interface (GUI)
 
 Do not hesitate to contact the creator of the project at: [priya.khandelwal@sjsu.edu](mailto:priya.khandelwal@sjsu.edu) for any concerns/questions.
+
+---------------------------------------------------------------------------------------
+## Contributors
+
+- Iqra Bismi: Performed Data pre-processing and implemented Hybrid model for restaurant recommendation.
+- Priya Khandelwal: Performed Data pre-processing and implemented Review Based model for restaurant recommendation
+- Saniya Lande: Performed Exploratory Data Analysis and implemented Memory-based collaborative filtering
+- Shilpa Shivarudraiah: Performed Exploratory Data Analysis and implemented Content-based filtering
 
 ---------------------------------------------------------------------------------------
 
