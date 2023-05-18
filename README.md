@@ -24,11 +24,7 @@ Run - python setup.py extract
 1. After activating the enviroment, run the following command
 `pip install -r requirements.txt`
 
-2. If you face version error in pytorch then please install pytorch using below commands for your OS. Else it is not required.
-<br> 
-For MacOS : `pip3 install torch torchvision torchaudio` <br>
-For Windows: `pip3 install torch torchvision torchaudio` <br>
-For Linux: `pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu`
+
 
 ## For EDA and Preprocessing dataset (We already performed EDA on given dataset and cleaned daatset provided in data folder), run the following command
 python source/data_preprocessing.py
@@ -78,6 +74,11 @@ Content-based modeling in restaurant recommendation systems is a technique used 
 
 ## Run
 `python source/content_recommendation.py`
+
+##### If you face version error in pytorch then please install pytorch using below commands for your OS. Else it is not required.
+For MacOS : `pip3 install torch torchvision torchaudio` <br>
+For Windows: `pip3 install torch torchvision torchaudio` <br>
+For Linux: `pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu`
 
 
 ## Usage:
