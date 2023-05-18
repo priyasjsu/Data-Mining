@@ -91,7 +91,7 @@ For Linux: `pip3 install torch torchvision torchaudio --index-url https://downlo
 
 ## 4. Hybrid Model (Knowledge Based Filtering+ Content Filtering using LDA + User-Item based Collaborative Filtering using SVD)
 
-A hybrid approach recommendation system combines multiple recommendation techniques to provide more accurate and personalized recommendations. It leverages the strengths of different recommendation methods to overcome their limitations.
+A hybrid approach recommendation systemleverages the strengths of different recommendation methods to overcome their limitations. Here, we are randomly selected the userid, in real scenario we can get recommendation for specific username or userid.
 
 ### For Restaurant recommmendation for Chinese restaurant in Philadelphia, run the following command. This file takes the trained svd model pickle file.
 
