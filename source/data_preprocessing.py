@@ -13,7 +13,6 @@ import os
 import io
 
 
-
 class DataConverter:
     def __init__(self, path):
         # self.csv_file = csv
@@ -29,7 +28,6 @@ class DataConverter:
                 line_contents = json.loads(line)
                 review.append(line_contents)
         review = pd.DataFrame(review)
-        review.shape
         # WRITE THE REVIEW FILE INTO CSV FORMAT
         review.to_csv(file_name)
         #We have filtered json and save in csv file we don't need to do it again.

@@ -14,7 +14,7 @@ import requests
 nltk.download('stopwords')
 nltk.download('punkt')
 
-#Class for Restaurant recommendation
+#RestaurantReviewRecommendation Class for Restaurant recommendation this class returns result on review based trained model
 class RestaurantReviewRecommendation:
     def __init__(self, business_data_file, model_file):
         self.df_business = None
@@ -31,17 +31,7 @@ class RestaurantReviewRecommendation:
 
     # load the trained model from pickle file
     def predict(self, query):
-        # Define the URL to download the data
-        #https://drive.google.com/file/d/1WgnC9NBOeNHwBSauMliSHHRj8nkzP23M/view?usp=sharing
-        url = f'https://drive.google.com/uc?id=1WgnC9NBOeNHwBSauMliSHHRj8nkzP23M'
-
-        # Send a GET request to download the file
-        response = requests.get(url)
-
-        # Load the downloaded content as a pickle object
-        file = pickle.loads(response.content)
-
-        # with open(self.model_file, 'rb') as file:
+        file = open(self.model_file, 'rb')
         self.P = pickle.load(file)
         self.Q = pickle.load(file)
         self.userid_vectorizer = pickle.load(file)
@@ -93,7 +83,7 @@ arguments = sys.argv
 query = arguments[1]
 
 business_file = '../data/business_restaurant.csv'
-model_file = '../data/model_pickle_review.pickle'
+model_file = '../data/review_model.pickle'
 
 # Providing the path of data files
 my_path = os.path.abspath(os.path.dirname(__file__))

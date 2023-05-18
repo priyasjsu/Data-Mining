@@ -14,7 +14,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize as tokeni
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-
+#This ReviewBasedModel class is responsible for trainin the review based model
 class ReviewBasedModel:
     def __init__(self):
         self.df = None

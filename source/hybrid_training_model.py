@@ -71,7 +71,7 @@ from gensim.models import CoherenceModel
 from fuzzywuzzy import fuzz
 
 import pickle
-import pickle
+5
 
 from surprise.model_selection import cross_validate
 
@@ -344,20 +344,17 @@ class RestaurantHybridModel:
         print("---------------------")
 
         count = 1
-        name = ""
-        for i, j in recommendations_cf.iterrows():
 
-            if name != j['name']:
-                print(f'{count}. ', j['name'], end=' ')
+        for i in recommendations_cf.name.unique():
 
-                print('Rating: ', j['rating_x'])
+                print(f'{count}. ', i)
 
                 print("\n")
                 count += 1
                 if count == 6:
                     break
 
-            name = j['name']
+
 
 
 import sys
@@ -374,8 +371,8 @@ if __name__ == "__main__":
 
 
     else:
-        cuisine = None
-        city = None
+        cuisine = "Italian"
+        city = "Philadelphia"
 
     recommendation_system = RestaurantHybridModel(
         ['1RWUScIcfDfj7artDU1xfzR3biAzLl6pe', '178FeiC8Rrt0qzqlmYSYDoqaVIPNNmjtZ', '1CVGRr9EzCy-jAD82SJMrjrSTAk7lXOak',
