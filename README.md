@@ -75,10 +75,11 @@ To exit the recommender, choose option 3. Thank you for using the Restaurant Rec
 Content-based modeling in restaurant recommendation systems is a technique used to provide personalized recommendations to users based on the characteristics of the restaurants and the preferences of the users.
 <br>
 
+## Run
+`python source/content_recommendation.py`
+
+
 ## Usage:
-
-python source/content_recommendation.py
-
 1. Enter the Restaurant Name (Ex: Starbucks) for Getting the Recommendation
 2. Enter the Number of Recommendations which you find Relevant
 3. Enter q to exit or enter business name for new recommendation.
