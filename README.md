@@ -13,7 +13,7 @@ Run - python setup.py extract
 #### For Mac, run the following command 
 
 1. python3 -m venv myenv
-2.source myenv/bin/activate
+2. source myenv/bin/activate
 
 #### For windows, run the following command
 1. python -m venv myenv
