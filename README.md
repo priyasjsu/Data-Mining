@@ -95,9 +95,9 @@ A hybrid approach recommendation system combines multiple recommendation techniq
 
 python source/hybrid_recommendation.py
 
-### For Restaurant recommendation based on specific cuisine and city, run the following command:
+### For Restaurant recommendation based on specific cuisine and city, run the following command with specific cuisine and city name:
 
-python source/hybrid_training_model.py cuisinename cityname
+python source/hybrid_training_model.py [cuisinename] [cityname]
 
 For eg, python source/hybrid_training_model.py italian Norristown
 
