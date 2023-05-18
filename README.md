@@ -8,7 +8,7 @@ Download the zipped folder and navigate to the root folder.
 ## For data extraction
 Run - python setup.py extract
 
-## Create a Virtual Environment to insall dependencies
+## Create a Virtual Environment to install dependencies
 
 #### For Mac, run the following command 
 
@@ -77,11 +77,8 @@ To find the Root Mean Squared Error (RMSE) for the User-based Recommendation sys
 ### Exiting the Recommender
 To exit the recommender, choose option 3. Thank you for using the Restaurant Recommender!
 
-<br>
 --------------------------------------------------------------------------------------
-## 1. Restaurant Recommendation System - Content Based Filtering
-
-### 3  Content Based Modeling
+## 3. Restaurant Recommendation System - Content Based Filtering
 
 Content-based modeling in restaurant recommendation systems is a technique used to provide personalized recommendations to users based on the characteristics of the restaurants and the preferences of the users.
 
