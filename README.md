@@ -70,9 +70,7 @@ To exit the recommender, choose option 3. Thank you for using the Restaurant Rec
 ## 3. Restaurant Recommendation System - Content Based Filtering
 
 Content-based modeling in restaurant recommendation systems is a technique used to provide personalized recommendations to users based on the characteristics of the restaurants and the preferences of the users.
-
 <br>
-
 ##Note: 
 Make sure to have pytorch installed in your system before running.
 If not, Install pytorch using below commands for your OS.
@@ -111,7 +109,6 @@ This will model uses knowledge based filtering provided by the user and then tra
 <br>
 
 --------------------------------------------------------------------------------------
-
 
 ## Future Enhancements
 
