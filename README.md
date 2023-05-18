@@ -5,7 +5,7 @@ Restaurant Recommendation is a project that we build as part our course in Data-
 ## Installation
 Download the zipped folder and navigate to the root folder. 
 
-## For data extraction
+## For data extraction. Please be patient it might take some time to download the data.
 Run - python setup.py extract
 
 ## Create a Virtual Environment to install dependencies
@@ -24,7 +24,8 @@ Run - python setup.py extract
 1. After activating the enviroment, run the following command
 `pip install -r requirements.txt`
 
-2. Install pytorch using below commands for your OS.<br> 
+2. If you face version error in pytorch then please install pytorch using below commands for your OS. Else it is not required.
+<br> 
 For MacOS : `pip3 install torch torchvision torchaudio` <br>
 For Windows: `pip3 install torch torchvision torchaudio` <br>
 For Linux: `pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu`
