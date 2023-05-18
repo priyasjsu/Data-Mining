@@ -117,6 +117,14 @@ This will model uses knowledge based filtering provided by the user and then tra
 Do not hesitate to contact the creator of the project at: [priya.khandelwal@sjsu.edu](mailto:priya.khandelwal@sjsu.edu) for any concerns/questions.
 
 ---------------------------------------------------------------------------------------
+## Contributors
+
+- Iqra Bismi: Performed Data pre-processing and implemented Hybrid model for restaurant recommendation.
+- Priya Khandelwal: Performed Data pre-processing and implemented Review Based model for restaurant recommendation
+- Saniya Lande: Performed Exploratory Data Analysis and implemented Memory-based collaborative filtering
+- Shilpa Shivarudraiah: Performed Exploratory Data Analysis and implemented Content-based filtering
+
+---------------------------------------------------------------------------------------
 
 ## Built With
 - pandas - Data manipulation and analysis library
