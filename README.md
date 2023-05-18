@@ -30,18 +30,7 @@ If there is any pytorch module import error then please install Pytorch from the
 python source/data_preprocessing.py
 
 ## Development
-We have implemented 4 model to  explore all dimension of yelp dataset. Each model using different set of data to recommend restaurant. 
-
-
-## Usage:
-
-python run.py
-
-1. Enter the Restaurant Name (Ex: Starbucks) for Getting the Recommendation
-2. Enter the Number of Recommendations which you find Relevant
-3. Enter q to exit or enter business name for new recommendation.
-
-<br>
+We have implemented 4 model to  explore all dimension of yelp dataset. Each model using different set of data to recommend restaurant.
 
 --------------------------------------------------------------------------------------
 
@@ -55,8 +44,8 @@ python source/train_review_model.py
 ## 2.Restaurant Recommendation system with Memory Based Collaborative Filtering
 What is Memory Based Collaborative Filtering?
 
-To run the memory based recommender, execute the following command in your terminal:
-`python memory_based_recommendor.py`
+##### To run the memory based recommender, execute the following command in your terminal:
+python source/memory_based_recommendor.py
 
 The script will download the required data files if they don't already exist and then prompt you to choose between different options.
 
@@ -92,6 +81,15 @@ For MacOS : pip3 install torch torchvision torchaudio
 For Windows: pip3 install torch torchvision torchaudio
 For Linux: pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 <br>
+## Usage:
+
+python source/run.py
+
+1. Enter the Restaurant Name (Ex: Starbucks) for Getting the Recommendation
+2. Enter the Number of Recommendations which you find Relevant
+3. Enter q to exit or enter business name for new recommendation.
+
+<br>
 --------------------------------------------------------------------------------------
 
 ## 4. Hybrid Model (Knowledge Based Filtering+ Content Filtering using LDA + User-Item based Collaborative Filtering using SVD)
@@ -100,13 +98,13 @@ A hybrid approach recommendation system combines multiple recommendation techniq
 
 ### For Restaurant recommmendation for Chinese restaurant in Philadelphia, run the following command. This file takes the trained svd model pickle file.
 
-python hybrid_recommendation.py
+python source/hybrid_recommendation.py
 
 ### For Restaurant recommendation based on specific cuisine and city, run the following command:
 
-python hybrid_training_model.py cuisinename cityname
+python source/hybrid_training_model.py cuisinename cityname
 
-For eg, python hybrid_training_model.py italian Norristown
+For eg, python source/hybrid_training_model.py italian Norristown
 
 This will model uses knowledge based filtering provided by the user and then trained the model with relevant data, it takes 3-4 minutes to get the recommendations.
 
@@ -122,8 +120,6 @@ This will model uses knowledge based filtering provided by the user and then tra
 Do not hesitate to contact the creator of the project at: [priya.khandelwal@sjsu.edu](mailto:priya.khandelwal@sjsu.edu) for any concerns/questions.
 
 ---------------------------------------------------------------------------------------
-
-
 
 ## Built With
 - pandas - Data manipulation and analysis library
