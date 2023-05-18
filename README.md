@@ -42,7 +42,7 @@ Run - python source/review_rec.py "I want to go for pizza place"
 python source/train_review_model.py
 
 ## 2.Restaurant Recommendation system with Memory Based Collaborative Filtering
-What is Memory Based Collaborative Filtering?
+Memory based Collabortaive Filtering filters the items in a collaborative way for a user, based on the preferences of similar users. In this system cosine similarity method is used to find the top 10 recommended businesses for a user based on the features.
 
 ##### To run the memory based recommender, execute the following command in your terminal:
 python source/memory_based_recommendor.py
