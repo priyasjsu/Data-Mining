@@ -1,6 +1,11 @@
-# Restaurant Recommendation System based on Yelp Dataset
+<img width="771" alt="image" src="https://github.com/priyasjsu/Data-Mining/assets/113324576/1a2b35d3-d27e-4d8f-b8eb-b84daa969dc8">
 
-Restaurant Recommendation is a project that we build as part our course in Data-Mining 240
+# Restaurant Recommendation System based on Yelp Dataset
+Welcome to the Restaurant Recommendation Project! This project aims to develop a restaurant recommendation system that assists users in finding the perfect dining spot based on their preferences. Whether you're a food enthusiast looking for new culinary experiences or someone seeking a cosy spot for a romantic dinner, our recommendation system has you covered. This project we build as part of our course in Data-Mining.
+
+## Introduction
+In a world of endless dining options, choosing a restaurant can be overwhelming. Our Restaurant Recommendation Project leverages cutting-edge technologies to simplify the decision-making process. By analyzing user preferences and restaurant attributes, we provide personalized and relevant recommendations that cater to various tastes and occasions. We have implemented 4 types of recommends models based on reviews, rating, reviews and rating, and based on location.
+
 
 ## Installation
 Download the zipped folder and navigate to the root folder. 
