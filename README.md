@@ -1,10 +1,13 @@
 <img width="771" alt="image" src="https://github.com/priyasjsu/Data-Mining/assets/113324576/1a2b35d3-d27e-4d8f-b8eb-b84daa969dc8">
 
 # Restaurant Recommendation System based on Yelp Dataset
-Welcome to the Restaurant Recommendation Project! This project aims to develop a restaurant recommendation system that assists users in finding the perfect dining spot based on their preferences. Whether you're a food enthusiast looking for new culinary experiences or someone seeking a cosy spot for a romantic dinner, our recommendation system has you covered. This project we build as part of our course in Data-Mining.
+Welcome to the Restaurant Recommendation Project! This project aims to develop a restaurant recommendation system that assists users in finding the perfect dining spot based on their preferences. Whether you're a food enthusiast looking for new culinary experiences or someone seeking a cosy spot for a romantic dinner, our recommendation system has you covered. This project we build as part of our course in Data-Mining. [Click here for project report](https://github.com/priyasjsu/Data-Mining/blob/master/docs/DATA_240_Project_Report_Group9.pdf)
 
 ## Introduction
-In a world of endless dining options, choosing a restaurant can be overwhelming. Our Restaurant Recommendation Project leverages cutting-edge technologies to simplify the decision-making process. By analyzing user preferences and restaurant attributes, we provide personalized and relevant recommendations that cater to various tastes and occasions. We have implemented 4 types of recommends models based on reviews, rating, reviews and rating, and based on location.
+In a world of endless dining options, choosing a restaurant can be overwhelming. Our Restaurant Recommendation Project leverages cutting-edge technologies to simplify the decision-making process. By analyzing user preferences and restaurant attributes, we provide personalized and relevant recommendations that cater to various tastes and occasions. We have implemented 4 types of recommendation models based on reviews, rating, reviews and rating, and based on location.
+## Project Presentation
+Please click on the given link to understand the project thoroughly
+[Project Presentation](https://github.com/priyasjsu/Data-Mining/blob/master/docs/DATA240_ProjectPresentation_Group9.pptx)
 
 
 ## Installation
